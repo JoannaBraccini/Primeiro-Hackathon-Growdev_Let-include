@@ -3,3 +3,8 @@ header {
     padding: 5px;
     background-color: #fff;
 }
+
+.texto-inicial {
+    border: 1px solid #000000;
+    padding: 20px;
+}
