@@ -4,7 +4,8 @@
   "description": "Este repositório contém as informações e arquivos necessários para o projeto Let include, que consiste em um jogo de aprendizado para alfabetizar em libras.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -18,4 +19,5 @@
     "cors": "^2.8.5",
     "express": "^4.19.2"
   }
+  
 }
