@@ -5,40 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <title>Let include - Tela Inicial</title>
 </head>
-<body id="tela-inicial">
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+<body>
+    <header>      
+        <nav class="navbar col-12 m-auto navbar-expand-lg bg-body">
+            <div class="container-fluid col-11 m-auto">
+                <a class="navbar-brand text-primary" href="tela-inicial.html">Let include</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-                <a href="tela-inicial.html"><button class="btn text-primary" type="button">Let include</button></a>
-                <div class="btn-group" role="group" aria-label="links">
-                    <a href="login.html"><button class="btn" type="button">Entrar</button></a>
-                    <a href="lista-jogos.html"><button class="btn" type="button">Jogos</button></a>
-                    <a href="sobre.html"><button class="btn" type="button">Sobre Nós</button></a>
-                    <a href="documentacao.html"><button class="btn" type="button">Documentação</button></a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav container-fluid justify-content-end">                    
+                    <a class="nav-link" href="login.html">Entrar</a>
+                    <a class="nav-link" href="lista-jogos.html">Jogos</a>
+                    <a class="nav-link" href="sobre.html">Sobre Nós</a>
+                    <a class="nav-link" href="documentacao.html">Documentação</a>
+                  </div>
                 </div>
             </div>
         </nav>
-    </header>
-
+    </header>  
+    
     <main>
-        <div class="container text-center">
-            <div class="row align-items-center m-5">
-                <div class="texto-inicial col mt-5">
-                    <h3>Como utilizar a funcionalidade VLIBRAS?</h3>
-                    <p>O VLibras é uma suíte de ferramentas utilizadas na tradução automática do Português para a Língua Brasileira de Sinais.<br>
-                    É possível utilizar essas ferramentas tanto no computador Desktop quanto em smartphones e tablets.</p>
-                </div>
-                <div class="texto-inicial mt-5">
-                    <p>Clique sobre o texto para receber a leitura em LIBRAS.</p>
+      <section>
+          <div class="container py-5 px-5 pb-5">
+              <div class="row gx-5 align-items-center">
+                  <div class="col-xxl-5">
+                      <div class="text-center text-xxl-start">
+                          <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Hackathon &middot; Growdev &middot; Libras</div></div>
+                          <div class="fs-3 fw-light text-muted">Como utilizar a funcionalidade VLIBRAS?</div>
+                          <h1 class="display-3 fw-bolder"><span class="text-gradient d-inline">Let include</span></h1>
+                          <div class="fs-3 fw-light text-muted mb-5">Clique sobre o texto para receber a leitura em LIBRAS.</div>
+                          <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                              <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="lista-jogos.html">Jogar Agora</a>
+                              <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="documentacao.html">Documentação</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xxl-7">
+                      <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                          <div class="profile bg-gradient-primary-to-secondary">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+           </div>  
+      </section>
+      <section class="bg-light py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xxl-8">
+                    <div class="text-center my-5">
+                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Hackathon 2024</span></h2>
+                        <p class="lead fw-light mb-4">Equipe Let include</p>
+                        <p class="text-muted">Débora - Gustavo - Joanna - Matheus - Yan</p>
+                        <div class="d-flex justify-content-center fs-2 gap-4">
+                            <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
+                            <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
+                            <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+      </section>
     </main>
+
+    <footer class="bg-white py-4 mt-auto">
+      <div class="container px-5">
+          <div class="row align-items-center justify-content-center flex-column flex-sm-row">
+              <div class="col-auto"><div class="small m-0">Hackathon Growdev - 2024</div></div>              
+          </div>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>
