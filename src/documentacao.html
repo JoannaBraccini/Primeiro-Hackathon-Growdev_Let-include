@@ -8,22 +8,98 @@
     <title>Let include - Documentação</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+    <header>      
+        <nav class="navbar col-12 m-auto navbar-expand-lg bg-body">
+            <div class="container-fluid col-11 m-auto">
+                <a class="navbar-brand text-primary" href="tela-inicial.html">Let include</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-                <a href="tela-inicial.html"><button class="btn" type="button">Let include</button></a>
-                <div class="btn-group" role="group" aria-label="links">
-                    <a href="login.html"><button class="btn" type="button">Entrar</button></a>
-                    <a href="lista-jogos.html"><button class="btn" type="button">Jogos</button></a>
-                    <a href="sobre.html"><button class="btn" type="button">Sobre Nós</button></a>
-                    <a href="documentacao.html"><button class="btn text-primary" type="button">Documentação</button></a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav container-fluid justify-content-end">                    
+                    <a class="nav-link" href="login.html">Entrar</a>
+                    <a class="nav-link" href="lista-jogos.html">Jogos</a>
+                    <a class="nav-link" href="sobre.html">Sobre Nós</a>
+                    <a class="nav-link" href="documentacao.html">Documentação</a>
+                  </div>
                 </div>
             </div>
         </nav>
-    </header>
+    </header>  
+
+    <main>
+        <div class="container px-5 my-5">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Documentação</span></h1>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Projeto -->
+                    <section>
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <h2 class="text-primary fw-bolder mb-0">Let include</h2>    
+                            <a class="btn btn-primary px-4 py-3" href="https://github.com/JoannaBraccini/Primeiro-Hackathon-Growdev" target="_blank">
+                                <div class="d-inline-block bi bi-download me-2"></div>
+                                Acessar GitHub
+                            </a>
+                        </div>
+                        <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="card-body p-5">
+                                <div class="row align-items-center gx-5">
+                                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                        <div class="bg-light p-4 rounded-4">
+                                            <div class="text-primary fw-bolder mb-2">Projeto Let include</div>
+                                            <div class="small fw-bolder">Jogos</div>
+                                            <div class="small text-muted">Educação</div>
+                                            <div class="small text-muted">Growdev</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8"><div>A ideia do projeto é facilitar o aprendizado da língua portuguesa (pt-BR) para pessoas com deficiência auditiva.</div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- VLibras-->
+                        <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="card-body p-5">
+                                <div class="row align-items-center gx-5">
+                                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                        <div class="bg-light p-4 rounded-4">
+                                            <div class="text-primary fw-bolder mb-2">API VLibras</div>
+                                            <div class="small fw-bolder">API governamental</div>                                                                        
+                                            <div class="small text-muted">
+                                                <a href="https://www-dth.vlibras.gov.br/" target="_blank">Site</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8"><div>Resultado de uma parceria entre o Ministério da Economia (ME), por meio da Secretaria de Governo Digital (SGD) e a Universidade Federal da Paraíba (UFPB), o VLibras é um conjunto de ferramentas computacionais de código aberto, que traduz conteúdos digitais (texto, áudio e vídeo) para Língua Brasileira de Sinais - LIBRAS, tornando computadores, celulares e plataformas Web acessíveis para pessoas surdas.</div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="pb-5"></div>
+                    <!-- Linguagens -->
+                    <section>
+                        <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="card-body p-5">                                
+                                <div class="mb-0">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-code-slash"></i></div>
+                                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Linguagens Utilizadas</span></h3>
+                                    </div>
+                                    <div class="row row-cols-1 row-cols-md-4 mb-2">
+                                        <div class="col mb-2 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
+                                        <div class="col mb-2 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
+                                        <div class="col mb-2 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
+                                        <div class="col mb-2 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div></div>
+                                    </div>                        
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>
