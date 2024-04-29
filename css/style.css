@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.header{
+    display: block
+}
+
 a:hover {
     color: #1e30f3;
 }
