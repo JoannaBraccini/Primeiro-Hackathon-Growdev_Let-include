@@ -49,3 +49,11 @@ a:hover {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.menu-jogos{
+  border: 2px solid rgb(34, 157, 234);
+  border-radius: 12px;
+  padding: 5px;
+  margin-top: 20px;   
+  background-color: rgb(34, 157, 234);
+}
