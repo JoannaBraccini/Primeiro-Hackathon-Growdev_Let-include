@@ -11,12 +11,12 @@ a:hover {
     color: #1e30f3;
 }
 
-.bg-gradient-primary-to-secondary {
+.bg-gradient-primary-to-secondary, .card.game {
   background: #1e30f3;
   background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
 }
 
-.text-gradient {
+.text-gradient, .navbar-brand:hover, .nav-link:hover {
   background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
   background-clip: text;
   -webkit-background-clip: text;
