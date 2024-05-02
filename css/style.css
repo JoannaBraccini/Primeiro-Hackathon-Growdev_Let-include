@@ -11,7 +11,7 @@ a:hover {
     color: #1e30f3;
 }
 
-.bg-gradient-primary-to-secondary, .card.game {
+.bg-gradient-primary-to-secondary, .card.game, .menu-jogos {
   background: #1e30f3;
   background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
 }
@@ -50,10 +50,26 @@ a:hover {
   transform: translateX(-50%);
 }
 
-.menu-jogos{
-  border: 2px solid rgb(34, 157, 234);
+.menu-jogos{  
   border-radius: 12px;
   padding: 5px;
   margin-top: 20px;   
-  background-color: rgb(34, 157, 234);
+}
+
+.menu-jogos h2 {
+ margin: 30px;
+}
+
+.menu-jogos span, p {
+  margin: 0 20px 0 30px;
+}
+
+.menu-jogos h2, p {
+  color: white;
+  width: 50%;
+}
+
+.menu-jogos span {
+  color: greenyellow;
+  font-weight: 400;
 }
