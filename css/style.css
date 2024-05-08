@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 .header{
     display: block
 }
@@ -10,6 +11,7 @@
 a:hover {
     color: #1e30f3;
 }
+
 
 .bg-gradient-primary-to-secondary, .card.game, .menu-jogos {
   background: #1e30f3;
@@ -72,4 +74,5 @@ a:hover {
 .menu-jogos span {
   color: greenyellow;
   font-weight: 400;
+  margin: 0;
 }
