@@ -15,11 +15,11 @@ a:hover {
 
 .bg-gradient-primary-to-secondary, .card.game, .menu-jogos {
   background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: linear-gradient(135deg, #008834 0%, #FEDD00 50%, #002e9b 100%);
 }
 
 .text-gradient, .navbar-brand:hover, .nav-link:hover {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: -webkit-linear-gradient(315deg, #008834 0%, #FEDD00 50%, #002e9b 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
