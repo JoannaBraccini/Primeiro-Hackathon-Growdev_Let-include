@@ -24,7 +24,6 @@ function saveSession(data, saveSession) {
     }
 
     sessionStorage.setItem("logged", data);
-    window.location.href = "lista-jogos.html"
 }
 
 function getAccount(key) {
@@ -82,6 +81,7 @@ document.getElementById("login-form").addEventListener("submit", function(e) {
     const email = document.getElementById("email-input").value;
     const password = document.getElementById("password-input").value;
     const checkSession = document.getElementById("session-check").checked;
+
     const account = getAccount(email);
 
     if(!account) {
@@ -95,6 +95,7 @@ document.getElementById("login-form").addEventListener("submit", function(e) {
             return;
         }
 
-        saveSession(emailLogin, checkSession);
+        saveSession(email, checkSession);
+        window.location.href = "tela-inicial.html";
     }
 })
