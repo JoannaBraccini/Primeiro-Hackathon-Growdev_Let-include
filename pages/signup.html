@@ -20,10 +20,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav container-fluid justify-content-end">                    
-                    <a class="nav-link text-primary" href="login.html">Entrar</a>
+                    <a class="nav-link" href="login.html">Entrar</a>
                     <a class="nav-link" href="lista-jogos.html">Jogos</a>
                     <a class="nav-link" href="sobre.html">Sobre Nós</a>
                     <a class="nav-link" href="documentacao.html">Documentação</a>
+                    <a class="nav-link" id="sair" href="tela-inicial.html">Sair</a>
                   </div>
                 </div>
             </div>
@@ -46,15 +47,15 @@
                           <form id="create-form">
                             <h3 class="mt-lg-5 mb-5 fw-bold text-white">Cadastre-se</h3>
                             <div class="form-floating text-secondary mb-3">
-                              <input type="email" class="form-control" id="email-create-input" placeholder="exemplo@servidor.com">
-                              <label for="email-create-input">exemplo@servidor.com</label>
+                              <input type="email" class="form-control" id="email-create-input" required>
+                              <label for="email-create-input">Digite seu email</label>
                             </div>
                             <div class="form-floating text-secondary mb-3">
-                              <input type="password" class="form-control" id="password-create-input" placeholder="digite uma senha">
+                              <input type="password" class="form-control" id="password-create-input" minlength="4" required>
                               <label for="password-create-input">digite uma senha</label>
                             </div>
                             <div class="form-floating text-secondary mb-4">
-                              <input type="password" class="form-control" id="password-confirm" placeholder="confirmar senha">
+                              <input type="password" class="form-control" id="password-confirm" required>
                               <label for="password-confirm">confirmar senha</label>
                             </div>
                         
