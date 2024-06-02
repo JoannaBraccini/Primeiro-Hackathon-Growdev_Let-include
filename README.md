@@ -21,5 +21,4 @@ Este repositório contém as informações e arquivos necessários para o projet
 Facilitar o aprendizado da língua portuguesa (pt-BR) para pessoas com deficiência auditiva com o uso de jogos interativos.
 
 ### Links
-
-**Documentação:**   
+https://letinclude-hackathon-joannas-projects-2936b93f.vercel.app/  
