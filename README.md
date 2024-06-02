@@ -1,6 +1,7 @@
 # Let include - Projeto Hackathon Growdev
 
 Este repositório contém as informações e arquivos necessários para o projeto Let include, que consiste em um jogo de aprendizado para alfabetizar em libras.
+<img src="assets/letinclude.png" alt="Let Include">
 
 ## Estrutura do Projeto
 
